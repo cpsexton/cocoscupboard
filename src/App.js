@@ -8,6 +8,7 @@ import Services from './components/pages/Services';
 import Volunteer from './components/pages/Volunteer';
 import Contact from './components/pages/Contact';
 import Donate from './components/pages/Donate';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path='/contact' exact component={Contact} />
           <Route path='/donate' exact component={Donate} />
         </Switch>
+        <Footer />
       </Router>
     </>
   );
