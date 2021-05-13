@@ -23,6 +23,28 @@ function Cards() {
                         />
                     </ul>
                 </div>
+                <div className='cards__wrapper'>
+                    <ul className='cards__items'>
+                        <CardItem
+                            src={require('../../images/img-9.jpg').default}
+                            text='Check out this crazy shit'
+                            label='Foster'
+                            path='/services'
+                        />
+                        <CardItem
+                            src={require('../../images/img-8.jpg').default}
+                            text='Check out this even crazier shit'
+                            label='Adopt'
+                            path='/services'
+                        />
+                        <CardItem
+                            src={require('../../images/img-4.jpg').default}
+                            text='Check out this even crazier shit'
+                            label='Adopt'
+                            path='/services'
+                        />
+                    </ul>
+                </div>
             </div>
         </div>
     );

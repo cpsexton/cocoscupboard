@@ -11,15 +11,13 @@ function HeroSection() {
             <p>Pet Food Pantry and Pet Rescue</p>
             <div className='hero-btns'>
                 <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large'>
-                    Get Started
+                    Who We Are
                 </Button>
                 <Button className='btns' buttonStyle='btn--primary' buttonSize='btn--large'>
                     Watch Trailer <i className='bi-play-circle bi-play-circle' />
                 </Button>
             </div>
         </div>
-
-
     )
 }
 
