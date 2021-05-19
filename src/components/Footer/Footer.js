@@ -28,7 +28,7 @@ function Footer() {
                         <Link to='../pages/AboutUs.js'>Who we are</Link>
                         <Link to='/'>Testimonials</Link>
                         <Link to='/'>Careers</Link>
-                        <Link to='/'>Terms of Service</Link>
+                        <Link to='/'>Livestream</Link>
                     </div>
                     <div className='footer-link-items'>
                         <h2>Contact Us</h2>

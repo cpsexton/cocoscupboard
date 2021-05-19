@@ -8,7 +8,11 @@ function AboutUs() {
         <>
             <h5 className='about-us'>About Us</h5>
             <div className='cards'>
-                <h1>Our board members are animal-loving volunteers who donate their time and money every day!</h1>
+                <div className='about-text-container'>
+                <h1>Our volunteers donate their time and money every day</h1>
+                <h3>Our Commitment: We are here to stem the tide of abandoned dogs and cats in the southern crescent of Atlanta.  We will fight for every animal in need, and we will work tirelessly to prevent future unwanted litters, surrenders and abandonments.  That is our commitment.</h3>
+                <h3>We offer a low cost spay / neuter program and pet food pantry for those in need.  We have limited space for fosters and welcome new foster homes!</h3>
+                </div>
                 <div className='cards__container'>
                     <div className='cards__wrapper'>
                         <ul className='cards__items'>
