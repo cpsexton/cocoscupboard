@@ -33,8 +33,8 @@ function Footer() {
                     <div className='footer-link-items'>
                         <h2>Contact Us</h2>
                         <Link to='../pages/Contact.js'>Email</Link>
+                        <Link to='/'>Phone</Link>
                         <Link to='/'>Volunteer</Link>
-                        <Link to='/'>Donate</Link>
                         <Link to='/'>Sponsor</Link>
                     </div>
                 </div>
