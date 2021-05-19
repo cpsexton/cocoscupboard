@@ -5,19 +5,19 @@ import './Cards.css';
 function Cards() {
     return (
         <div className='cards'>
-            <h1>Check out our cool shit!</h1>
+            <h1>There are so many ways you can help local animals today!</h1>
             <div className='cards__container'>
                 <div className='cards__wrapper'>
                     <ul className='cards__items'>
                         <CardItem
-                            src={require('../../images/img-9.jpg').default}
-                            text='Check out this crazy shit'
+                            src={require('../../images/img-2.jpg').default}
+                            text='Open your home and help by fostering'
                             label='Foster'
                             path='/services'
                         />
                         <CardItem
-                            src={require('../../images/img-8.jpg').default}
-                            text='Check out this even crazier shit'
+                            src={require('../../images/img-1.jpg').default}
+                            text='Adopt a new best friend today!'
                             label='Adopt'
                             path='/services'
                         />
@@ -26,20 +26,20 @@ function Cards() {
                 <div className='cards__wrapper'>
                     <ul className='cards__items'>
                         <CardItem
-                            src={require('../../images/img-9.jpg').default}
-                            text='Check out this crazy shit'
+                            src={require('../../images/img-3.jpg').default}
+                            text='More ways to help'
                             label='Foster'
                             path='/services'
                         />
                         <CardItem
-                            src={require('../../images/img-8.jpg').default}
-                            text='Check out this even crazier shit'
+                            src={require('../../images/img-2.jpg').default}
+                            text='More ways to help out'
                             label='Adopt'
                             path='/services'
                         />
                         <CardItem
-                            src={require('../../images/img-4.jpg').default}
-                            text='Check out this even crazier shit'
+                            src={require('../../images/img-3.jpg').default}
+                            text='Even more ways you can help today'
                             label='Adopt'
                             path='/services'
                         />
