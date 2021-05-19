@@ -32,19 +32,19 @@ function Footer() {
                     </div>
                     <div className='footer-link-items'>
                         <h2>Contact Us</h2>
-                        <Link to='../pages/Contact.js'>Contact</Link>
-                        <Link to='/'>Support</Link>
-                        <Link to='/'>Donators</Link>
+                        <Link to='../pages/Contact.js'>Email</Link>
+                        <Link to='/'>Volunteer</Link>
+                        <Link to='/'>Donate</Link>
                         <Link to='/'>Sponsor</Link>
                     </div>
                 </div>
                 <div className='footer-link-wrapper'>
                     <div className='footer-link-items'>
                         <h2>Services</h2>
-                        <Link to='../pages/Services.js'>Services</Link>
-                        <Link to='/'>Testimonials</Link>
-                        <Link to='/'>Careers</Link>
-                        <Link to='/'>Terms of Service</Link>
+                        <Link to='../pages/Services.js'>Foster Application</Link>
+                        <Link to='/'>Adoption Forms</Link>
+                        <Link to='/'>Spay/Neuter Forms</Link>
+                        <Link to='/'>Assistance Request</Link>
                     </div>
                     <div className='footer-link-items'>
                         <h2>Donate</h2>

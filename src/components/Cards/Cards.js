@@ -5,7 +5,7 @@ import './Cards.css';
 function Cards() {
     return (
         <div className='cards'>
-            <h1>There are so many ways you can help local animals today!</h1>
+            <h1>Coco's Cupboard Inc. is run by volunteers and funded by donations</h1>
             <div className='cards__container'>
                 <div className='cards__wrapper'>
                     <ul className='cards__items'>
