@@ -9,10 +9,10 @@ function AboutUs() {
             <h5 className='about-us'>About Us</h5>
             <div className='cards'>
                 <div className='about-text-container'>
-                <h1>We are a 501(c)(3) non-profit humane society.</h1>
-                <h2>Our Commitment:</h2>
-                <h3>We are here to stem the tide of abandoned dogs and cats in the southern crescent of Atlanta.  We will fight for every animal in need, and we will work tirelessly to prevent future unwanted litters, surrenders and abandonments.</h3>
-                <h3>We offer a low cost spay / neuter program and pet food pantry for those in need.  We have limited space for fosters and welcome new foster homes!</h3>
+                <h1>Our Commitment:</h1>
+                <h2>We are here to stem the tide of abandoned dogs and cats in the southern crescent of Atlanta.  We will fight for every animal in need, and we will work tirelessly to prevent future unwanted litters, surrenders and abandonments.</h2>
+                <h3>We offer a low cost <a href='./services' style={{ color: 'blue', textDecoration: "none" }} >spay / neuter program</a> and pet food pantry for those in need.  We have limited space for fosters and welcome <a href='./services' style={{ color: 'blue', textDecoration: "none" }} >new foster homes</a>!</h3>
+                <h3>We are a 501(c)(3) non-profit humane society</h3>
                 </div>
                 <div className='cards__container'>
                     <div className='cards__wrapper'>
@@ -46,6 +46,8 @@ function AboutUs() {
                             />
                         </ul>
                     </div>
+                    <h1>Coco</h1>
+                    <img src={require("../../images/coco.jpg").default} alt="coco" />
                 </div>
             </div>
 
